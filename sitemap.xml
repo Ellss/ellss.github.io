@@ -2,6 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>ellss.top/2017/11/17/test/</loc>
+    
+    <lastmod>2017-11-17T05:19:40.298Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>ellss.top/2017/11/15/My-New-Post/</loc>
+    
+    <lastmod>2017-11-17T05:18:03.980Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>ellss.top/2017/11/17/test1/</loc>
+    
+    <lastmod>2017-11-17T03:56:15.874Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>ellss.top/2017/11/15/hello-world/</loc>
+    
+    <lastmod>2017-11-17T03:33:40.619Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>ellss.top/404.html</loc>
     
     <lastmod>2017-11-16T08:04:28.939Z</lastmod>
@@ -9,16 +37,16 @@
   </url>
   
   <url>
-    <loc>ellss.top/2017/11/15/My-New-Post/</loc>
+    <loc>ellss.top/tags/index.html</loc>
     
-    <lastmod>2017-11-15T15:21:17.267Z</lastmod>
+    <lastmod>2017-10-28T04:43:33.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>ellss.top/2017/11/15/hello-world/</loc>
+    <loc>ellss.top/categories/index.html</loc>
     
-    <lastmod>2017-11-15T14:54:36.221Z</lastmod>
+    <lastmod>2017-10-28T04:43:33.000Z</lastmod>
     
   </url>
   
