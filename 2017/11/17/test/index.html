@@ -6,19 +6,19 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="ellss.top">
-  <title>test | Ellss blog</title>
+  <title>Hexo搭建Github静态博客 | Ellss blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="sasasQuick StartCreate a new post">
 <meta name="keywords" content="Hexo">
 <meta property="og:type" content="article">
-<meta property="og:title" content="test">
+<meta property="og:title" content="Hexo搭建Github静态博客">
 <meta property="og:url" content="ellss.top/2017/11/17/test/index.html">
 <meta property="og:site_name" content="Ellss blog">
 <meta property="og:description" content="sasasQuick StartCreate a new post">
 <meta property="og:image" content="http://ozjn5gsgp.bkt.clouddn.com/blog/passage/test/head_icon.jpg">
-<meta property="og:updated_time" content="2017-11-17T05:19:40.298Z">
+<meta property="og:updated_time" content="2017-11-17T07:25:22.286Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="test">
+<meta name="twitter:title" content="Hexo搭建Github静态博客">
 <meta name="twitter:description" content="sasasQuick StartCreate a new post">
 <meta name="twitter:image" content="http://ozjn5gsgp.bkt.clouddn.com/blog/passage/test/head_icon.jpg">
   
@@ -58,20 +58,22 @@
 			
 				<li><a href="/">主页</a></li>
 	        
-				<li><a href="/archives">文章</a></li>
+				<li><a href="/archives">归档</a></li>
 	        
-				<li><a href="/categories">分类</a></li>
+				<li><a href="/categories/文章">文章</a></li>
 	        
-				<li><a href="/tags">标签</a></li>
-	        
-				<li><a href="/sitemap.xml">站点</a></li>
+				<li><a href="/categories/随笔">随笔</a></li>
 	        
 			</ul>
 		</nav>
 		<nav class="header-smart-menu">
     		
     			
-    			<a q-on="click: openSlider(e, 'innerArchive')" href="javascript:void(0)">所有文章</a>
+    			<a q-on="click: openSlider(e, 'innerArchive')" href="javascript:void(0)">搜索</a>
+    			
+            
+    			
+    			<a q-on="click: openSlider(e, 'friends')" href="javascript:void(0)">友链</a>
     			
             
     			
@@ -119,8 +121,6 @@
 			
 				
 			
-				
-			
 			
 			
 			<nav class="header-nav">
@@ -137,15 +137,13 @@
 				<ul style="width: 70%">
 				
 				
-					<li style="width: 20%"><a href="/">主页</a></li>
+					<li style="width: 25%"><a href="/">主页</a></li>
 		        
-					<li style="width: 20%"><a href="/archives">文章</a></li>
+					<li style="width: 25%"><a href="/archives">归档</a></li>
 		        
-					<li style="width: 20%"><a href="/categories">分类</a></li>
+					<li style="width: 25%"><a href="/categories/文章">文章</a></li>
 		        
-					<li style="width: 20%"><a href="/tags">标签</a></li>
-		        
-					<li style="width: 20%"><a href="/sitemap.xml">站点</a></li>
+					<li style="width: 25%"><a href="/categories/随笔">随笔</a></li>
 		        
 				</ul>
 			</nav>
@@ -167,7 +165,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      test
+      Hexo搭建Github静态博客
     </h1>
   
 
@@ -178,6 +176,11 @@
         
       </header>
     
+	
+	<!-- 目录内容 -->
+
+<!-- 目录内容结束 -->
+
     <div class="article-entry" itemprop="articleBody">
       
         <p><img src="http://ozjn5gsgp.bkt.clouddn.com/blog/passage/test/head_icon.jpg" alt=""></p>
@@ -206,7 +209,7 @@
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="/categories/Hexo教程//" class="article-tag-list-link color2">Hexo教程</a>
+        			<a href="/categories/文章//" class="article-tag-list-link color3">文章</a>
         		</li>
       		
 		</ul>
@@ -275,18 +278,9 @@
   
 <nav id="article-nav">
   
-    <a href="/2017/11/17/test1/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          test1
-        
-      </div>
-    </a>
-  
   
     <a href="/2017/11/15/My-New-Post/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">My New Post</div>
+      <div class="article-nav-title">随笔</div>
       <i class="icon-circle-right"></i>
     </a>
   
@@ -394,17 +388,25 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
       
       
     
+      
+      
+      
+    
     
 
     <ul style="width: 70%">
     
     
       
-      <li style="width: 50%" q-on="click: openSlider(e, 'innerArchive')"><a href="javascript:void(0)" q-class="active:innerArchive">所有文章</a></li>
+      <li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'innerArchive')"><a href="javascript:void(0)" q-class="active:innerArchive">搜索</a></li>
       
         
       
-      <li style="width: 50%" q-on="click: openSlider(e, 'aboutme')"><a href="javascript:void(0)" q-class="active:aboutme">关于我</a></li>
+      <li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'friends')"><a href="javascript:void(0)" q-class="active:friends">友链</a></li>
+      
+        
+      
+      <li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'aboutme')"><a href="javascript:void(0)" q-class="active:aboutme">关于我</a></li>
       
         
     </ul>
@@ -426,10 +428,6 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">Hexo</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">GIS</a>
               </li>
             
             <div class="clearfix"></div>
@@ -475,6 +473,22 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
     	</section>
     
 
+    
+    	<section class="tools-section tools-section-friends" q-show="friends">
+  		
+        <ul class="search-ul">
+          
+            <li class="search-li">
+              <a href="https://github.com/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>GitHub</a>
+            </li>
+          
+            <li class="search-li">
+              <a href="http://www.gitnavi.com/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>程序员工具导航</a>
+            </li>
+          
+        </ul>
+  		
+    	</section>
     
 
     
