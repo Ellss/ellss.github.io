@@ -6,14 +6,28 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="ellss.top">
-  <title>Ellss blog</title>
+  <title>Hexo搭建Github静态博客(2)——Yilia主题配置 | Ellss blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Ellss blog">
-<meta property="og:url" content="ellss.top/index.html">
+  <meta name="description" content="简介 &amp;emsp;&amp;emsp;在上一篇文章中–Hexo搭建Github静态博客(1)——主体搭建 我们完成了博客的主体搭建工作，下一步我们要为他配置主题和评论框、统计等功能。">
+<meta name="keywords" content="Hexo,markdown">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hexo搭建Github静态博客(2)——Yilia主题配置">
+<meta property="og:url" content="ellss.top/2017/11/19/Hexo_Github_2/index.html">
 <meta property="og:site_name" content="Ellss blog">
+<meta property="og:description" content="简介 &amp;emsp;&amp;emsp;在上一篇文章中–Hexo搭建Github静态博客(1)——主体搭建 我们完成了博客的主体搭建工作，下一步我们要为他配置主题和评论框、统计等功能。">
+<meta property="og:image" content="http://ozjn5gsgp.bkt.clouddn.com/blog/passage/hexo_github_2/passage6.png">
+<meta property="og:image" content="http://ozjn5gsgp.bkt.clouddn.com/blog/passage/hexo_github_2/passage1.png">
+<meta property="og:image" content="http://ozjn5gsgp.bkt.clouddn.com/blog/passage/hexo_github_2/passage1.png">
+<meta property="og:image" content="http://ozjn5gsgp.bkt.clouddn.com/blog/passage/hexo_github_2/passage2.png">
+<meta property="og:image" content="http://ozjn5gsgp.bkt.clouddn.com/blog/passage/hexo_github_2/passage3.png">
+<meta property="og:image" content="http://ozjn5gsgp.bkt.clouddn.com/blog/passage/hexo_github_2/passage4.png">
+<meta property="og:image" content="http://ozjn5gsgp.bkt.clouddn.com/blog/passage/hexo_github_2/passage1.png">
+<meta property="og:image" content="http://ozjn5gsgp.bkt.clouddn.com/blog/passage/hexo_github_2/passage5.png">
+<meta property="og:updated_time" content="2017-11-19T08:11:39.273Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Ellss blog">
+<meta name="twitter:title" content="Hexo搭建Github静态博客(2)——Yilia主题配置">
+<meta name="twitter:description" content="简介 &amp;emsp;&amp;emsp;在上一篇文章中–Hexo搭建Github静态博客(1)——主体搭建 我们完成了博客的主体搭建工作，下一步我们要为他配置主题和评论框、统计等功能。">
+<meta name="twitter:image" content="http://ozjn5gsgp.bkt.clouddn.com/blog/passage/hexo_github_2/passage6.png">
   
   
   <link rel="stylesheet" type="text/css" href="/./main.0cf68a.css">
@@ -151,16 +165,14 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-    <article id="post-Hexo_Github_2" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+            <article id="post-Hexo_Github_2" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/11/19/Hexo_Github_2/">Hexo搭建Github静态博客(2)——Yilia主题配置</a>
+    <h1 class="article-title" itemprop="name">
+      Hexo搭建Github静态博客(2)——Yilia主题配置
     </h1>
   
 
@@ -174,6 +186,30 @@
 	
 	<!-- 目录内容 -->
 
+    <p class="show-toc-btn" id="show-toc-btn" onclick="showToc();" style="display:none">
+          <span class="btn-bg"></span>
+          <span class="btn-text">文章导航</span>
+          </p>
+	<div id="toc-article" class="toc-article">
+	    <span id="toc-close" class="toc-close" title="隐藏导航" onclick="showBtn();">×</span>
+		<strong class="toc-title">文章目录</strong>
+           <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#简介"><span class="toc-number">1.</span> <span class="toc-text">简介</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#1-主题安装"><span class="toc-number">2.</span> <span class="toc-text">1. 主题安装</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-1-主题选择"><span class="toc-number">2.1.</span> <span class="toc-text">1.1 主题选择</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-2-主题配置"><span class="toc-number">2.2.</span> <span class="toc-text">1.2 主题配置</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#2-添加评论框"><span class="toc-number">3.</span> <span class="toc-text">2. 添加评论框</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#2-1-评论框的配置"><span class="toc-number">3.1.</span> <span class="toc-text">2.1 评论框的配置</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-2-评论框的测试"><span class="toc-number">3.2.</span> <span class="toc-text">2.2 评论框的测试</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#3-统计"><span class="toc-number">4.</span> <span class="toc-text">3. 统计</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#4-404页面"><span class="toc-number">5.</span> <span class="toc-text">4. 404页面</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#5-sitemap插件"><span class="toc-number">6.</span> <span class="toc-text">5. sitemap插件</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#5-1-什么是site插件"><span class="toc-number">6.1.</span> <span class="toc-text">5.1 什么是site插件</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-2-插件安装"><span class="toc-number">6.2.</span> <span class="toc-text">5.2 插件安装</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#6-feed插件"><span class="toc-number">7.</span> <span class="toc-text">6. feed插件</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#6-1-什么是feed插件"><span class="toc-number">7.1.</span> <span class="toc-text">6.1 什么是feed插件</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#6-2-安装插件"><span class="toc-number">7.2.</span> <span class="toc-text">6.2 安装插件</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#7-图片存储方案"><span class="toc-number">8.</span> <span class="toc-text">7. 图片存储方案</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#7-1-外链存储"><span class="toc-number">8.1.</span> <span class="toc-text">7.1 外链存储</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#7-2-本地存储"><span class="toc-number">8.2.</span> <span class="toc-text">7.2 本地存储</span></a></li></ol></li></ol>
+         </div>
+   <script type="text/javascript">
+	function showToc(){
+		var toc_article = document.getElementById("toc-article");
+		var show_toc_btn = document.getElementById("show-toc-btn");
+		toc_article.setAttribute("style","display:block");
+		show_toc_btn.setAttribute("style","display:none");
+		};
+	function showBtn(){
+		var toc_article = document.getElementById("toc-article");
+		var show_toc_btn = document.getElementById("show-toc-btn");
+		toc_article.setAttribute("style","display:none");
+		show_toc_btn.setAttribute("style","display:block");
+		};
+   </script>
+      
 <!-- 目录内容结束 -->
 
     <div class="article-entry" itemprop="articleBody">
@@ -182,108 +218,62 @@
 <h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><blockquote>
 <p>&emsp;&emsp;在上一篇文章中–Hexo搭建Github静态博客(1)——主体搭建 我们完成了博客的<br>主体搭建工作，下一步我们要为他配置主题和评论框、统计等功能。</p>
 </blockquote>
-        
-          <a class="article-more-a" href="/2017/11/19/Hexo_Github_2/#more">more >></a>
-        
-      
+<a id="more"></a>
+<h1 id="1-主题安装"><a href="#1-主题安装" class="headerlink" title="1. 主题安装"></a>1. 主题安装</h1><h2 id="1-1-主题选择"><a href="#1-1-主题选择" class="headerlink" title="1.1 主题选择"></a>1.1 主题选择</h2><ul>
+<li>hexo 官方主题选择：<a href="https://hexo.io/themes/" target="_blank" rel="noopener">https://hexo.io/themes/</a></li>
+<li>我们这里使用litten大佬提供的yilia主题:<a href="https://github.com/litten/hexo-theme-yilia" target="_blank" rel="noopener">https://github.com/litten/hexo-theme-yilia</a></li>
+</ul>
+<h2 id="1-2-主题配置"><a href="#1-2-主题配置" class="headerlink" title="1.2 主题配置"></a>1.2 主题配置</h2><ul>
+<li>将下载的主题复制到themes目录下 <img src="http://ozjn5gsgp.bkt.clouddn.com/blog/passage/hexo_github_2/passage1.png" alt=""></li>
+<li>修改Hexo目录下_config.yml文件里的 <code>theme: yilia-master</code></li>
+<li>在<img src="http://ozjn5gsgp.bkt.clouddn.com/blog/passage/hexo_github_2/passage1.png" alt="">目录下按提示修改_config.yml文件来配置主题基本项目</li>
+<li><p><code>hexo clean</code> <code>hexo g</code> <code>hexo s</code> 重新在本地调试预览</p>
+<h1 id="2-添加评论框"><a href="#2-添加评论框" class="headerlink" title="2. 添加评论框"></a>2. 添加评论框</h1><h2 id="2-1-评论框的配置"><a href="#2-1-评论框的配置" class="headerlink" title="2.1 评论框的配置"></a>2.1 评论框的配置</h2></li>
+<li>静态博客要使用第三方评论系统</li>
+<li>以Gitment为例，介绍配置方法。</li>
+<li><p>使用Gitgub账号注册Gitmnet</p>
+<ul>
+<li><p><img src="http://ozjn5gsgp.bkt.clouddn.com/blog/passage/hexo_github_2/passage2.png" alt=""></p>
+</li>
+<li><p><img src="http://ozjn5gsgp.bkt.clouddn.com/blog/passage/hexo_github_2/passage3.png" alt=""></p>
+</li>
+<li><p><img src="http://ozjn5gsgp.bkt.clouddn.com/blog/passage/hexo_github_2/passage4.png" alt=""></p>
+</li>
+</ul>
+</li>
+<li><p>在<img src="http://ozjn5gsgp.bkt.clouddn.com/blog/passage/hexo_github_2/passage1.png" alt="">目录下按提示修改_config.yml文件</p>
+<figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">gitment_owner</span>: <span class="string">'ellss'</span>      #你的 GitHub Name</span><br><span class="line"><span class="attribute">gitment_repo</span>: <span class="string">'ellss.github.io'</span>          #存储评论的 repo</span><br><span class="line"><span class="attribute">gitment_oauth</span>: </span><br><span class="line"><span class="attribute">client_id</span>: <span class="string">'XXXXXXXXXXX'</span>           #client ID</span><br><span class="line"><span class="attribute">client_secret</span>: <span class="string">'XXXXXXXXXXXXXXXXXXXXXXXX'</span>       #client secret</span><br></pre></td></tr></table></figure>
+<h2 id="2-2-评论框的测试"><a href="#2-2-评论框的测试" class="headerlink" title="2.2 评论框的测试"></a>2.2 评论框的测试</h2><p>与1.2主题测试相同</p>
+<h1 id="3-统计"><a href="#3-统计" class="headerlink" title="3. 统计"></a>3. 统计</h1></li>
+<li><p>参考：<a href="http://ibruce.info/2015/04/04/busuanzi/" target="_blank" rel="noopener">http://ibruce.info/2015/04/04/busuanzi/</a></p>
+<h1 id="4-404页面"><a href="#4-404页面" class="headerlink" title="4. 404页面"></a>4. 404页面</h1></li>
+<li><p>在<img src="http://ozjn5gsgp.bkt.clouddn.com/blog/passage/hexo_github_2/passage5.png" alt="">下创建404.html<br>内容为:</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"> ---</span><br><span class="line">layout: <span class="keyword">default</span></span><br><span class="line">---</span><br><span class="line">&lt;html&gt;</span><br><span class="line">    &lt;head&gt;</span><br><span class="line">         &lt;meta charset=<span class="string">"UTF-8"</span> /&gt;</span><br><span class="line">         &lt;title&gt;<span class="number">404</span>&lt;<span class="regexp">/title&gt;                                                                                                                                        </span></span><br><span class="line"><span class="regexp">    &lt;/</span>head&gt;</span><br><span class="line">    &lt;body&gt;</span><br><span class="line">         &lt;script type=<span class="string">"text/javascript"</span> src=<span class="string">"http://www.qq.com/404/search_children.js"</span> charset=<span class="string">"utf-8"</span>&gt;<span class="xml"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></span><br><span class="line">    &lt;<span class="regexp">/body&gt;</span></span><br><span class="line"><span class="regexp">&lt;/</span>html&gt;</span><br></pre></td></tr></table></figure>
+<h1 id="5-sitemap插件"><a href="#5-sitemap插件" class="headerlink" title="5. sitemap插件"></a>5. sitemap插件</h1><h2 id="5-1-什么是site插件"><a href="#5-1-什么是site插件" class="headerlink" title="5.1 什么是site插件"></a>5.1 什么是site插件</h2><ul>
+<li>可以将你站点地图提交给搜索引擎<h2 id="5-2-插件安装"><a href="#5-2-插件安装" class="headerlink" title="5.2 插件安装"></a>5.2 插件安装</h2></li>
+<li><code>$ npm install hexo-generator-sitemap</code></li>
+<li><p>修改Hexo_config.yml，增加以下内容</p>
+<figure class="highlight dts"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">  <span class="meta"># Extensions</span></span><br><span class="line"><span class="symbol">Plugins:</span></span><br><span class="line">- hexo-generator-sitemap</span><br><span class="line"></span><br><span class="line"><span class="meta">#sitemap</span></span><br><span class="line"><span class="symbol">sitemap:</span></span><br><span class="line"><span class="symbol">  path:</span> sitemap.xml</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>访问 <a href="http://localhost:4000/sitemap.xml，即可看到站点地图" target="_blank" rel="noopener">http://localhost:4000/sitemap.xml，即可看到站点地图</a></p>
+</li>
+</ul>
+<h1 id="6-feed插件"><a href="#6-feed插件" class="headerlink" title="6. feed插件"></a>6. feed插件</h1><h2 id="6-1-什么是feed插件"><a href="#6-1-什么是feed插件" class="headerlink" title="6.1 什么是feed插件"></a>6.1 什么是feed插件</h2><ul>
+<li>RSS的生成插件，你可以在配置显示你站点的RSS<h2 id="6-2-安装插件"><a href="#6-2-安装插件" class="headerlink" title="6.2 安装插件"></a>6.2 安装插件</h2></li>
+<li><code>$ npm install hexo-generator-feed</code></li>
+<li><p>启用，修改Hexo_config.yml，增加以下内容+</p>
+<figure class="highlight dts"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">  <span class="meta"># Extensions</span></span><br><span class="line"><span class="symbol">Plugins:</span></span><br><span class="line">- hexo-generator-feed</span><br><span class="line">- hexo-generator-sitemap</span><br><span class="line"></span><br><span class="line"><span class="meta">#Feed Atom</span></span><br><span class="line"><span class="symbol">feed:</span></span><br><span class="line"><span class="symbol">  type:</span> atom</span><br><span class="line"><span class="symbol">  path:</span> atom.xml</span><br><span class="line"><span class="symbol">  limit:</span> <span class="number">20</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>访问 <a href="http://localhost:4000/atom.xml，即可看到RSS" target="_blank" rel="noopener">http://localhost:4000/atom.xml，即可看到RSS</a></p>
+</li>
+</ul>
+</li>
+</ul>
+<h1 id="7-图片存储方案"><a href="#7-图片存储方案" class="headerlink" title="7. 图片存储方案"></a>7. 图片存储方案</h1><h2 id="7-1-外链存储"><a href="#7-1-外链存储" class="headerlink" title="7.1 外链存储"></a>7.1 外链存储</h2><ul>
+<li>七牛云：<a href="https://portal.qiniu.com/create" target="_blank" rel="noopener">https://portal.qiniu.com/create</a> 外链使用格式：<code>![text](url)</code><h2 id="7-2-本地存储"><a href="#7-2-本地存储" class="headerlink" title="7.2 本地存储"></a>7.2 本地存储</h2></li>
+<li>参考：<a href="http://www.jianshu.com/p/c2ba9533088a" target="_blank" rel="noopener">http://www.jianshu.com/p/c2ba9533088a</a></li>
+</ul>
 
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">Hexo</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">markdown</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-	<div class="article-category tagcloud">
-		<i class="icon-book icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/文章//" class="article-tag-list-link color3">文章</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2017/11/19/Hexo_Github_2/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-Hexo_Github_1" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/11/17/Hexo_Github_1/">Hexo搭建Github静态博客(1)——主体搭建</a>
-    </h1>
-  
-
-        
-        <a href="/2017/11/17/Hexo_Github_1/" class="archive-article-date">
-  	<time datetime="2017-11-17T02:33:38.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-11-17</time>
-</a>
-        
-      </header>
-    
-	
-	<!-- 目录内容 -->
-
-<!-- 目录内容结束 -->
-
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p><br><br><img src="http://ozjn5gsgp.bkt.clouddn.com/blog/passage/test/passage8.jpg" alt=""><br><br></p>
-<h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><blockquote>
-<p>&emsp;&emsp;我想每个人在某个时候会有一股想要记录和分享自己学习、生活点滴的冲动。（不就是想要装下13嘛0.0）<br>GitHub、CSDN博客当然技术开发工作者的聚集地，知乎简书也能分享你的看法，但不满足于千篇一律的界面<br>想要拥有属于自己的一片“领土”的人就应该搭建个人博客！</p>
-</blockquote>
-        
-          <a class="article-more-a" href="/2017/11/17/Hexo_Github_1/#more">more >></a>
-        
       
 
       
@@ -320,16 +310,75 @@
 
 
       
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2017/11/17/Hexo_Github_1/">展开全文 >></a>
-        </p>
-      
 
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
+        </div>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=http:ellss.top/2017/11/19/Hexo_Github_2/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
       
       <div class="clearfix"></div>
     </div>
   </div>
 </article>
+
+  
+<nav id="article-nav">
+  
+  
+    <a href="/2017/11/17/Hexo_Github_1/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">Hexo搭建Github静态博客(1)——主体搭建</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
 
 <aside class="wrap-side-operation">
     <div class="mod-side-operation">
@@ -344,91 +393,48 @@
         </div>
         
         
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-essays" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/11/15/essays/">随笔</a>
-    </h1>
-  
-
-        
-        <a href="/2017/11/15/essays/" class="archive-article-date">
-  	<time datetime="2017-11-15T15:21:17.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-11-15</time>
-</a>
-        
-      </header>
-    
-	
-	<!-- 目录内容 -->
-
-<!-- 目录内容结束 -->
-
-    <div class="article-entry" itemprop="articleBody">
-      
-        
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-	<div class="article-category tagcloud">
-		<i class="icon-book icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/随笔//" class="article-tag-list-link color3">随笔</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2017/11/15/essays/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
+        <div class="toc-container tooltip-left">
+            <i class="icon-font icon-category"></i>
+            <div class="tooltip tooltip-east">
+                <span class="tooltip-item">
+                </span>
+                <span class="tooltip-content">
+                    <div class="toc-article">
+                    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#简介"><span class="toc-number">1.</span> <span class="toc-text">简介</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#1-主题安装"><span class="toc-number">2.</span> <span class="toc-text">1. 主题安装</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-1-主题选择"><span class="toc-number">2.1.</span> <span class="toc-text">1.1 主题选择</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-2-主题配置"><span class="toc-number">2.2.</span> <span class="toc-text">1.2 主题配置</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#2-添加评论框"><span class="toc-number">3.</span> <span class="toc-text">2. 添加评论框</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#2-1-评论框的配置"><span class="toc-number">3.1.</span> <span class="toc-text">2.1 评论框的配置</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-2-评论框的测试"><span class="toc-number">3.2.</span> <span class="toc-text">2.2 评论框的测试</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#3-统计"><span class="toc-number">4.</span> <span class="toc-text">3. 统计</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#4-404页面"><span class="toc-number">5.</span> <span class="toc-text">4. 404页面</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#5-sitemap插件"><span class="toc-number">6.</span> <span class="toc-text">5. sitemap插件</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#5-1-什么是site插件"><span class="toc-number">6.1.</span> <span class="toc-text">5.1 什么是site插件</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-2-插件安装"><span class="toc-number">6.2.</span> <span class="toc-text">5.2 插件安装</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#6-feed插件"><span class="toc-number">7.</span> <span class="toc-text">6. feed插件</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#6-1-什么是feed插件"><span class="toc-number">7.1.</span> <span class="toc-text">6.1 什么是feed插件</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#6-2-安装插件"><span class="toc-number">7.2.</span> <span class="toc-text">6.2 安装插件</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#7-图片存储方案"><span class="toc-number">8.</span> <span class="toc-text">7. 图片存储方案</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#7-1-外链存储"><span class="toc-number">8.1.</span> <span class="toc-text">7.1 外链存储</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#7-2-本地存储"><span class="toc-number">8.2.</span> <span class="toc-text">7.2 本地存储</span></a></li></ol></li></ol>
+                    </div>
+                </span>
             </div>
         </div>
         
-        
     </div>
 </aside>
 
 
 
+  
+  
+  
 
   
+
+  
+
+  
+  <div id="gitment-ctn"></div> 
+<link rel="stylesheet" href="//imsun.github.io/gitment/style/default.css">
+<script src="//imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+	id: '27799821',
+  owner: 'ellss',
+  repo: 'ellss.github.io',
+  oauth: {
+    client_id: 'a5709f2d234f2993c6d7',
+    client_secret: 'e3cc0ddd4fd701838392a548254502a1e0cc453d',
+  },
+})
+gitment.render('gitment-ctn')
+</script>
   
 
 
@@ -456,8 +462,8 @@
     <script>
 	var yiliaConfig = {
 		mathjax: false,
-		isHome: true,
-		isPost: false,
+		isHome: false,
+		isPost: true,
 		isArchive: false,
 		isTag: false,
 		isCategory: false,

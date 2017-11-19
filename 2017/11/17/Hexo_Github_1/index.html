@@ -23,7 +23,7 @@
 <meta property="og:image" content="http://ozjn5gsgp.bkt.clouddn.com/blog/passage/test/passage7.png">
 <meta property="og:image" content="http://ozjn5gsgp.bkt.clouddn.com/blog/passage/test/passage5.png">
 <meta property="og:image" content="http://ozjn5gsgp.bkt.clouddn.com/blog/passage/test/passage6.png">
-<meta property="og:updated_time" content="2017-11-18T14:19:06.160Z">
+<meta property="og:updated_time" content="2017-11-19T06:44:25.347Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo搭建Github静态博客(1)——主体搭建">
 <meta name="twitter:description" content="简介 &amp;emsp;&amp;emsp;我想每个人在某个时候会有一股想要记录和分享自己学习、生活点滴的冲动。（不就是想要装下13嘛0.0）GitHub、CSDN博客当然技术开发工作者的聚集地，知乎简书也能分享你的看法，但不满足于千篇一律的界面想要拥有属于自己的一片“领土”的人就应该搭建个人博客！">
@@ -253,7 +253,8 @@
 <hr>
 <p> <img src="http://ozjn5gsgp.bkt.clouddn.com/blog/passage/test/passage3.jpg" alt=""><br> 4.测试<br> 输入<code>ssh -T git@gitub.com</code></p>
 <h1 id="3-安装Hexo"><a href="#3-安装Hexo" class="headerlink" title="3. 安装Hexo"></a>3. 安装Hexo</h1><h2 id="3-1-什么是Hexo"><a href="#3-1-什么是Hexo" class="headerlink" title="3.1 什么是Hexo"></a>3.1 什么是Hexo</h2><ul>
-<li><p>hexo是博客框架，将支持的类型的文件转换成静态Web页面（html+css+javascript）</p>
+<li>hexo是博客框架，将支持的类型的文件转换成静态Web页面（html+css+javascript）</li>
+<li><p>hexo官方中文文档: <a href="https://hexo.io/zh-cn/docs/commands.html" target="_blank" rel="noopener">https://hexo.io/zh-cn/docs/commands.html</a></p>
 <h2 id="3-2-Hexo安装"><a href="#3-2-Hexo安装" class="headerlink" title="3.2 Hexo安装"></a>3.2 Hexo安装</h2></li>
 <li><p>桌面打开Git命令行，执行如下命令安装Hexo<br><code>$ npm install -g hexo</code></p>
 </li>
@@ -273,7 +274,7 @@
 <figure class="highlight plain"><figcaption><span>Deployment</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">## Docs: http://hexo.io/docs/deployment.html</span><br><span class="line">deploy:</span><br><span class="line">type: github</span><br><span class="line">repository: git@github.com:your_name/your_name.github.io.git</span><br><span class="line">branch: master</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>每次部署的步骤，可按以下三步来进行<br><code>hexo clean</code> –清除生成的静态网页文件<br><code>hexo generate</code> –重新生成文件<br><code>hexo deploy</code> –部署到GitHub 或者 <code>hexo server</code> –启动本地服务，进行文章预览调试</p>
-<h2 id="3-8-常用命令"><a href="#3-8-常用命令" class="headerlink" title="3.8 常用命令"></a>3.8 常用命令</h2><p><code>hexo new &quot;postName&quot; #新建文章</code><br><code>hexo new page &quot;pageName&quot; #新建页面</code><br><code>hexo clean #清除生成的静态网页文件</code><br><code>hexo generate #生成静态页面至public目录</code><br><code>hexo server #开启预览访问端口（默认端口4000，&#39;ctrl + c&#39;关闭server）</code><br><code>hexo deploy #将.deploy目录部署到GitHub</code><br><code>hexo help  # 查看帮助</code><br><code>hexo version  #查看Hexo的版本</code></p>
+<h2 id="3-8-常用命令"><a href="#3-8-常用命令" class="headerlink" title="3.8 常用命令"></a>3.8 常用命令</h2><p><code>hexo new &quot;postName&quot; #新建文章</code><br><code>hexo new page &quot;pageName&quot; #新建页面</code><br><code>hexo clean #清除生成的静态网页文件</code><br><code>hexo generate #生成静态页面至public目录</code><br><code>hexo publish #发表草稿</code><br><code>hexo server #开启预览访问端口（默认端口4000，&#39;ctrl + c&#39;关闭server）</code><br><code>hexo deploy #将.deploy目录部署到GitHub</code><br><code>hexo help  # 查看帮助</code><br><code>hexo version  #查看Hexo的版本</code></p>
 </li>
 </ul>
 <h1 id="4-域名配置"><a href="#4-域名配置" class="headerlink" title="4. 域名配置"></a>4. 域名配置</h1><h2 id="4-1-域名注册"><a href="#4-1-域名注册" class="headerlink" title="4.1 域名注册"></a>4.1 域名注册</h2><ul>
@@ -392,6 +393,15 @@
 
   
 <nav id="article-nav">
+  
+    <a href="/2017/11/19/Hexo_Github_2/" id="article-nav-newer" class="article-nav-link-wrap">
+      <i class="icon-circle-left"></i>
+      <div class="article-nav-title">
+        
+          Hexo搭建Github静态博客(2)——Yilia主题配置
+        
+      </div>
+    </a>
   
   
     <a href="/2017/11/15/essays/" id="article-nav-older" class="article-nav-link-wrap">
